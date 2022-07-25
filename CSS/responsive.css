@@ -1,0 +1,1343 @@
+@media (max-width: 320px){
+    header{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    #containerHeader{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .title{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 1.2em;
+        color: rgb(230, 157, 24);
+        background-color: transparent;
+    }
+    
+    .boxNavegation{
+        display: none;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    ul{
+        display: none;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    li{
+        display: none;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: 1.5em;
+        color: rgb(126, 123, 123);
+    }
+    .menu{
+        display: flex;
+        width: 16%;
+        height: 3.1vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    hr{
+        display: flex;
+        width: 70%;
+        height: 0.3vh;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: rgb(126, 123, 123);
+    }
+    
+    /*Main*/
+    
+    
+    #containerMain{
+        display: flex;
+        width: 100%;
+        height: 80vh;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-color: transparent;
+    }
+    .boxColumnmain{
+        display: flex;
+        width: 100%;
+        height: 35vh;
+        text-align: center;
+        align-items: center;
+        position: initial;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    h2{
+        display: flex;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8em;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    p{
+        display: flex;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+        font-weight: 500;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    .boxButton{
+        display: flex;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    button{
+        display: flex;
+        width: 50vw;
+        height: 5vh;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        font-size: 6vw;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgb(230, 157, 24);
+    }
+    button:hover{
+        background-color: rgb(201, 139, 25);
+    }
+    .boxImage{
+        display: flex;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    img{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        object-fit: cover;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 321px){
+    header{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    #containerHeader{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .title{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 1.5em;
+        color: rgb(230, 157, 24);
+        background-color: transparent;
+    }
+    
+    .boxNavegation{
+        display: none;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    ul{
+        display: none;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    li{
+        display: none;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: 1.5em;
+        color: rgb(126, 123, 123);
+    }
+    .menu{
+        display: flex;
+        width: 15%;
+        height: 3vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    hr{
+        display: flex;
+        width: 70%;
+        height: 0.4vh;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: rgb(126, 123, 123);
+    }
+    
+    /*Main*/
+    
+    
+    #containerMain{
+        display: flex;
+        width: 100%;
+        height: 80vh;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-color: transparent;
+    }
+    .boxColumnmain{
+        display: flex;
+        width: 100%;
+        height: 35vh;
+        text-align: center;
+        align-items: center;
+        position: initial;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    h2{
+        display: flex;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8em;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    p{
+        display: flex;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+        font-weight: 500;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    .boxButton{
+        display: flex;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    button{
+        display: flex;
+        width: 50vw;
+        height: 5vh;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        font-size: 6vw;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgb(230, 157, 24);
+    }
+    button:hover{
+        background-color: rgb(201, 139, 25);
+    }
+    .boxImage{
+        display: flex;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    img{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        object-fit: cover;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 376px){
+    header{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    #containerHeader{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .title{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 1.6em;
+        color: rgb(230, 157, 24);
+        background-color: transparent;
+    }
+    
+    .boxNavegation{
+        display: none;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    ul{
+        display: none;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    li{
+        display: none;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: 1.5em;
+        color: rgb(126, 123, 123);
+    }
+    .menu{
+        display: flex;
+        width: 16%;
+        height: 3vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    hr{
+        display: flex;
+        width: 60%;
+        height: 0.3vh;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: rgb(126, 123, 123);
+    }
+    
+    /*Main*/
+    
+    
+    #containerMain{
+        display: flex;
+        width: 100%;
+        height: 80vh;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-color: transparent;
+    }
+    .boxColumnmain{
+        display: flex;
+        width: 100%;
+        height: 35vh;
+        text-align: center;
+        align-items: center;
+        position: initial;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    h2{
+        display: flex;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.8em;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    p{
+        display: flex;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+        font-weight: 500;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    .boxButton{
+        display: flex;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    button{
+        display: flex;
+        width: 50vw;
+        height: 5vh;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        font-size: 5vw;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgb(230, 157, 24);
+    }
+    button:hover{
+        background-color: rgb(201, 139, 25);
+    }
+    .boxImage{
+        display: flex;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    img{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        object-fit: cover;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 436px){
+    header{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    #containerHeader{
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .title{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 4vmax;
+        color: rgb(230, 157, 24);
+        background-color: transparent;
+    }
+    
+    .boxNavegation{
+        display: none;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    ul{
+        display: none;
+        width: 70%;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    li{
+        display: none;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: 1.5em;
+        color: rgb(126, 123, 123);
+    }
+    .menu{
+        display: flex;
+        width: 15%;
+        height: 3.1vh;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    hr{
+        display: flex;
+        width: 5vmax;
+        height: 0.4vh;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        background-color: rgb(126, 123, 123);
+    }
+    
+    /*Main*/
+    
+    
+    #containerMain{
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        background-color: transparent;
+    }
+    .boxColumnmain{
+        display: flex;
+        width: 100%;
+        height: 50vh;
+        text-align: center;
+        align-items: center;
+        position: initial;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    h2{
+        display: flex;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 2.5em;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    p{
+        display: flex;
+        width: 80vw;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5em;
+        font-weight: 500;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    .boxButton{
+        display: flex;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    button{
+        display: flex;
+        width: 35vw;
+        height: 6vh;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        font-size: 3.5vw;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgb(230, 157, 24);
+    }
+    button:hover{
+        background-color: rgb(201, 139, 25);
+    }
+    .boxImage{
+        display: flex;
+        width: 100vmin;
+        height: 60vh;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    img{
+        display: flex;
+        width: 95%;
+        align-items: center;
+        object-fit: cover;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 769px){
+    header{
+        display: flex;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    #containerHeader{
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    .title{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 1.8em;
+        color: rgb(230, 157, 24);
+        background-color: transparent;
+    }
+    
+    .boxNavegation{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    ul{
+        display: flex;
+        width: 95%;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    li{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: 1.2em;
+        color: rgb(126, 123, 123);
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    /*Main*/
+    
+    
+    #containerMain{
+        display: flex;
+        width: 100%;
+        height: 70vmax;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    .boxColumnmain{
+        display: flex;
+        width: 100%;
+        height: 35vmax;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 27.5vh;
+        left: -11vw;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    h2{
+        display: flex;
+        width: 80vmin;
+        text-align: justify;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 5.1vmax;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    p{
+        display: flex;
+        width: 80vmin;
+        text-align: justify;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 2vmax;
+        font-weight: 550;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    .boxButton{
+        display: flex;
+        width: 80vmin;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: transparent;
+    }
+    button{
+        display: flex;
+        width: 22vmax;
+        height: 5vmax;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        font-size: 2.5vmax;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgb(230, 157, 24);
+    }
+    button:hover{
+        background-color: rgb(201, 139, 25);
+    }
+    .boxImage{
+        display: flex;
+        width: 100%;
+        height: 90vh;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    img{
+        display: flex;
+        width: 68vmax;
+        align-items: center;
+        object-fit: cover;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024px){
+    header{
+        display: flex;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    #containerHeader{
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    .title{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 2em;
+        color: rgb(230, 157, 24);
+        background-color: transparent;
+    }
+    
+    .boxNavegation{
+        display: flex;
+        width: 50vmin;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    ul{
+        display: flex;
+        width: 95vmin;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    li{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: 2.5vmin;
+        color: rgb(126, 123, 123);
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    /*Main*/
+    
+    
+    #containerMain{
+        display: flex;
+        width: 100%;
+        height: 70vmax;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    .boxColumnmain{
+        display: flex;
+        width: 90%;
+        height: 35vmax;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 25vh;
+        left: -14.5vw;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    h2{
+        display: flex;
+        width: 50vmax;
+        text-align: justify;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 5vmax;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    p{
+        display: flex;
+        width: 50vmax;
+        text-align: justify;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 2vmax;
+        font-weight: 550;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    .boxButton{
+        display: flex;
+        width: 50vmax;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: transparent;
+    }
+    button{
+        display: flex;
+        width: 22vmax;
+        height: 5vmax;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        font-size: 2.5vmax;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgb(230, 157, 24);
+    }
+    button:hover{
+        background-color: rgb(201, 139, 25);
+    }
+    .boxImage{
+        display: flex;
+        width: 95%;
+        height: 90vh;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    img{
+        display: flex;
+        width: 65vmax;
+        align-items: center;
+        object-fit: cover;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1440px){
+    header{
+        display: flex;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    #containerHeader{
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .title{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 3em;
+        color: rgb(230, 157, 24);
+        background-color: transparent;
+    }
+    
+    .boxNavegation{
+        display: flex;
+        width: 50vmin;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    ul{
+        display: flex;
+        width: 95vmin;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    li{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: 3vmin;
+        color: rgb(126, 123, 123);
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    /*Main*/
+    
+    
+    #containerMain{
+        display: flex;
+        width: 100%;
+        height: 70vmax;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    .boxColumnmain{
+        display: flex;
+        width: 90%;
+        height: 35vmax;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 20vh;
+        left: -11.5vw;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    h2{
+        display: flex;
+        width: 50vmax;
+        text-align: justify;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 4.5vmax;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    p{
+        display: flex;
+        width: 50vmax;
+        text-align: justify;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 1.8vmax;
+        font-weight: 550;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    .boxButton{
+        display: flex;
+        width: 50vmax;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: transparent;
+    }
+    button{
+        display: flex;
+        width: 22vmax;
+        height: 5vmax;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        font-size: 2.5vmax;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgb(230, 157, 24);
+    }
+    button:hover{
+        background-color: rgb(201, 139, 25);
+    }
+    .boxImage{
+        display: flex;
+        width: 95%;
+        height: 90vh;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    img{
+        display: flex;
+        width: 65vmax;
+        align-items: center;
+        object-fit: cover;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 2560px){
+    header{
+        display: flex;
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+    }
+    #containerHeader{
+        display: flex;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .title{
+        display: flex;
+        width: 50%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 4.5vmin;
+        color: rgb(230, 157, 24);
+        background-color: transparent;
+    }
+    
+    .boxNavegation{
+        display: flex;
+        width: 50vmin;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    ul{
+        display: flex;
+        width: 95vmin;
+        text-align: center;
+        align-items: center;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    li{
+        display: flex;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        font-weight: 700;
+        background-color: transparent;
+    }
+    li:hover{
+        text-decoration: underline;
+    }
+    
+    a{
+        text-decoration: none;
+        font-size: 3vmin;
+        color: rgb(126, 123, 123);
+    }
+    
+    .menu{
+        display: none;
+    }
+    
+    /*Main*/
+    
+    
+    #containerMain{
+        display: flex;
+        width: 100%;
+        height: 70vmax;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    .boxColumnmain{
+        display: flex;
+        width: 90%;
+        height: 35vmax;
+        margin: 0 auto;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+        position: absolute;
+        top: 17vh;
+        left: -11.5vw;
+        justify-content: space-around;
+        background-color: transparent;
+    }
+    h2{
+        display: flex;
+        width: 50vmax;
+        text-align: justify;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 4.5vmax;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    p{
+        display: flex;
+        width: 50vmax;
+        text-align: justify;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 1.8vmax;
+        font-weight: 550;
+        color: rgb(126, 123, 123);
+        background-color: transparent;
+    }
+    .boxButton{
+        display: flex;
+        width: 50vmax;
+        text-align: center;
+        align-items: center;
+        justify-content: flex-start;
+        background-color: transparent;
+    }
+    button{
+        display: flex;
+        width: 22vmax;
+        height: 5vmax;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        border: none;
+        border-radius: 10px;
+        outline: none;
+        color: rgb(255, 255, 255);
+        font-size: 2.5vmax;
+        font-weight: 700;
+        cursor: pointer;
+        background-color: rgb(230, 157, 24);
+    }
+    button:hover{
+        background-color: rgb(201, 139, 25);
+    }
+    .boxImage{
+        display: flex;
+        width: 95%;
+        height: 90vh;
+        align-items: center;
+        justify-content: flex-end;
+        background-color: transparent;
+    }
+    img{
+        display: flex;
+        width: 65vmax;
+        align-items: center;
+        object-fit: cover;
+        justify-content: center;
+    }
+}
